@@ -8,13 +8,13 @@ header .logo {
     max-height: 30px;
 }
 .main {
-    margin: 0 50% 0 4%;
+    margin: 0 35% 0 4%;
     display: flex;
+    width: 500%;
     flex-direction: column;
 }
 .main .searchBar {
     background-color: white;
-    width: 180%;
     border-radius: 150px;
     border: 1px solid #ccc;
     padding: 0.70em 16px;
@@ -45,7 +45,7 @@ header .logo {
     background-color: transparent;
     color: gray;
     border: 0;
-    margin: 0 5px 0 5px;
+    margin: 0.5em 10px 0.5em 10px;
     font-size: 13px;
 }
 .main .buttonBar button:focus {
@@ -54,8 +54,12 @@ header .logo {
 .main #leftSide {
     display: flex;
     justify-self: flex-end;
-    margin: 0 0 0 auto;
+    margin-left: auto;
 }
 .main #selectedTab {
     color: blue;
+}
+hr {
+    border: 1px rgba(0, 180, 226, 0.5);
+    box-shadow: 0 0 0px 2px rgba(0, 150, 196, 0.07);
 }
