@@ -128,3 +128,6 @@ hr {
 .searchEntry .quickLinks a:hover {
     text-decoration: underline;
 }
+.peopleAlsoAsk {
+    width: 37em;
+}
