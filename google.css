@@ -160,6 +160,18 @@ hr {
 #feedbackButton:hover {
     text-decoration: underline;
 }
+.searchSectionHeader {
+    display: flex;
+    flex-direction: row;
+}
+.searchSectionHeader h2{
+    font-size: 1.4em;
+    margin: 1em 0 1em 0;
+}
+.searchSectionHeader img {
+    margin: 0 10px 0 10px;
+    align-self: center;
+}
 footer {
     background-color: rgb(242, 242, 242);
     background-size: auto;
