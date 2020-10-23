@@ -130,4 +130,24 @@ hr {
 }
 .peopleAlsoAsk {
     width: 37em;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+}
+.peopleAlsoAsk h2 {
+    font-size: 1.3em;
+}
+.peopleAlsoAsk hr {
+    border: 1px solid black;
+    box-shadow: none;
+}
+.peopleAlsoAsk .pAASection {
+    border-top: 1px solid rgb(200, 200, 200);
+    padding: 1em;
+}
+footer {
+    background-color: rgb(242, 242, 242);
+    background-size: auto;
+    margin-top: -1px;
+    display: flex;
+    flex-direction: row;
 }
