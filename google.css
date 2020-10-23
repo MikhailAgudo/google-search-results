@@ -166,7 +166,7 @@ hr {
 }
 .searchSectionHeader h2{
     font-size: 1.4em;
-    margin: 1em 0 1em 0;
+    margin: 1em 0 0.2em 0;
 }
 .searchSectionHeader img {
     margin: 0 10px 0 10px;
@@ -181,6 +181,10 @@ hr {
     border: 1px solid rgb(200, 200, 200);
     border-radius: 10px;
     margin: 0 3px 0 3px;
+}
+.videoCard img {
+    max-width: 100%;
+    border-radius: 10px;
 }
 .videoCard .cardDescription {
     padding: 0.5em;
