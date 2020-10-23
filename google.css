@@ -70,7 +70,8 @@ hr {
     box-shadow: 0 0 0px 3px rgba(0, 150, 196, 0.07);
 }
 .mainBody {
-    padding: 10px 0 0 13%;
+    margin: 10px 0 0 13%;
+    width: 37em;
     display: flex;
     flex-direction: column;
 }
@@ -86,7 +87,6 @@ hr {
 }
 .searchEntry {
     margin: 2em 0 0 0;
-    width: 37em;
 }
 .searchEntry #topDirectory strong {
     color: rgb(90, 36, 36);
@@ -129,12 +129,15 @@ hr {
     text-decoration: underline;
 }
 .peopleAlsoAsk {
-    width: 37em;
     border: 1px solid rgb(200, 200, 200);
     border-radius: 10px;
+    margin: 2em 0 0 0;
 }
 .peopleAlsoAsk h2 {
     font-size: 1.3em;
+}
+.peopleAlsoAsk p {
+    font-size: 1.1em;
 }
 .peopleAlsoAsk hr {
     border: 1px solid black;
@@ -142,7 +145,16 @@ hr {
 }
 .peopleAlsoAsk .pAASection {
     border-top: 1px solid rgb(200, 200, 200);
-    padding: 1em;
+    padding: 0.8em;
+}
+.peopleAlsoAsk #topOne {
+    border-top: 0;
+}
+#feedbackButton {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    font-style: italic;
+    margin: 5px 0 0 auto;
 }
 footer {
     background-color: rgb(242, 242, 242);
