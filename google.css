@@ -172,6 +172,39 @@ hr {
     margin: 0 10px 0 10px;
     align-self: center;
 }
+.videoCardSection {
+    margin: 1em 0 1em 0;
+    display: flex;
+    flex-direction: row;
+}
+.videoCard {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    margin: 0 3px 0 3px;
+}
+.videoCard .cardDescription {
+    padding: 0.5em;
+}
+.videoCard .cardDescription h3 {
+
+}
+.videoCard .cardDescription a {
+    font-size: 22px;
+    color: blue;
+    text-decoration: none;
+}
+.videoCard .cardDescription a:hover {
+    text-decoration: underline;
+}
+.videoCard .cardDescription p {
+    color: rgb(77, 80, 87);
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.videoCard .cardDescription p strong {
+    font-weight: bold
+}
 footer {
     background-color: rgb(242, 242, 242);
     background-size: auto;
