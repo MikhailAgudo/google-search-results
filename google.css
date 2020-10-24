@@ -316,5 +316,29 @@ footer {
     background-size: auto;
     margin-top: -1px;
     display: flex;
+    flex-direction: column;
+    color: rgb(115, 117, 115);
+}
+footer .firstRow {
+    padding: 1em;
+    display: flex;
     flex-direction: row;
+    border-top: 1px solid rgb(115, 117, 115);
+}
+footer .firstRow strong {
+    font-weight: bold;
+    border-left: 1px solid rgb(115, 117, 115);
+    padding-left: 0.5em;
+    color: rgb(60, 63, 67);
+}
+footer p {
+    margin: 0 0.5em 0 0.5em;
+}
+footer a {
+    color: rgb(115, 117, 115);
+    text-decoration: none;
+    padding-left: 0.5em;
+}
+footer a:hover {
+    text-decoration: underline;
 }
