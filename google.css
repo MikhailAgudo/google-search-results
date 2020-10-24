@@ -272,6 +272,23 @@ hr {
 #reportImagesButton:hover {
     text-decoration: underline;
 }
+.relatedSearchSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 2em 0 2em 0;
+    grid-gap: 0.5em;
+}
+.relatedSearchSection a {
+    color: rgb(119, 12, 178);
+    text-decoration: none;
+}
+.relatedSearchSection a:hover {
+    text-decoration: underline;
+}
+.relatedSearchSection a strong {
+    font-weight: bold;
+}
 footer {
     background-color: rgb(242, 242, 242);
     background-size: auto;
