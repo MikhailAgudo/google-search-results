@@ -258,10 +258,11 @@ hr {
     display: flex;
     flex-direction: row;
 }
-.imagesSection .imagesActual img {
-    max-width: 100%;
+.imagesSection .imagesActual .imageContainer {
+    object-fit: cover;
+    margin: 0 1px 0 1px;
+    max-width: 25%;
 }
-
 footer {
     background-color: rgb(242, 242, 242);
     background-size: auto;
